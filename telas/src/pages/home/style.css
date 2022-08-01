@@ -1,0 +1,27 @@
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  padding: 100px;
+  color: #02779E;
+} 
+.buttonContainer img {
+  border-radius: 26px;
+  margin: 10px;
+  width: 100px;
+    
+}
+
+.button {
+  cursor: pointer;
+  margin: 10px ;
+  border-radius: 30px;
+  width: 100px;
+  height: 80px;
+  color: #02779E;
+}
+.button :hover {
+  background-color: #9E0204;
+}

@@ -1,0 +1,43 @@
+/*Dados*/
+.containerD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 170px;
+  width: 290px;
+
+  margin-left: 25px;
+  margin: 5px 5px 15px 400px;
+
+  border-radius: 5px 2px 5px 2px;
+  box-shadow: 15px 2px 15px 2px #eb0202;
+  font-family: serif;
+}
+
+.containerD button {
+  background-color: #6c757d;
+  color: #eb0202;
+  font-family: serif;
+}
+
+/*Distribuição*/
+.dadosContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cDistribuicao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 250px;
+  width: 350px;
+
+  margin-left: 25px;
+  margin: 80px 5px 5px 80px;
+  padding: 15px;
+
+  border-radius: 5px;
+  font-family: serif;
+}

@@ -1,0 +1,35 @@
+.containerD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 150px;
+  width: 250px;
+
+  margin-left: 25px;
+  margin: 5px 5px 15px 400px;
+
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #6c757d;
+  background-color: #f2f3f5;
+}
+
+.dados {
+  display: grid;
+  justify-content: center;
+  gap: 15px;
+  grid-template-columns: 85vw;
+  color: #eb0202;
+  background-color: #f2f3f5;
+  margin: 10px;
+}
+
+.dados th {
+  color: #eb0202;
+}
+
+.botaoES {
+  display: flex;
+  justify-content: start;
+  padding: 5px;
+}

@@ -1,0 +1,58 @@
+.containerF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 170px;
+  width: 290px;
+
+  margin-left: 25px;
+  margin: 5px 5px 15px 400px;
+
+  border-radius: 5px 2px 5px 2px;
+  box-shadow: 5px 2px 5px 2px;
+  font-family: serif;
+}
+
+.dadoVida {
+  display: grid;
+  justify-content: center;
+  gap: 15px;
+  grid-template-columns: 85vw;
+  color: #f2f3f5;
+  background-color: #eb0202;
+  margin: 10px;
+}
+
+.dadoVida th {
+  color: #f2f3f5;
+}
+
+.botaoDCB {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-family: serif;
+  margin: 15px;
+}
+
+.botaoDES {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: serif;
+  margin: 15px;
+}
+
+.tableMargem {
+  display: grid;
+  align-items: center;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #eb0202;
+}
+
+.tableMargem input {
+  margin: 15px;
+  width: 95%;
+}

@@ -1,0 +1,66 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.globalStyled {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 20px;
+}
+
+.globalStyled img {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+}
+
+.globalStyled svg {
+  cursor: pointer;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  height: 80vh;
+  border: 10px solid black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.input button {
+  margin: 10px;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  gap: 15px;
+  grid-template-columns: 90vw;
+}
+
+.container th {
+  color: #eb0202;
+}
+
+.botaoES {
+  color: grey;
+  text-align: start;
+  font-family: serif;
+}
+
+.botaoCB {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: serif;
+  margin: 15px;
+}
